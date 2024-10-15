@@ -714,7 +714,7 @@ enable_trusted_host_check = 1
 ; This only needs to be set for any hostnames that the Matomo UI will be accessed from. It is not necessary to set this
 ; for other additional hostnames (For example tracking, API, etc.)
 ; Examples:
-;trusted_hosts[] = example.com
+;trusted_hosts[] = "localhost:9090"
 ;trusted_hosts[] = stats.example.com
 
 ; List of Cross-origin resource sharing domains (eg domain or subdomain names) when generating absolute URLs.

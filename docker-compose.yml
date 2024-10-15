@@ -20,7 +20,7 @@ services:
     environment:
       - MATOMO_DATABASE_HOST=db
     ports:
-      - 8080:80
+      - 9090:90
 
 volumes:
   db:
